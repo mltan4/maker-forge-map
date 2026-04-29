@@ -19,6 +19,10 @@ export default {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        surface: {
+          DEFAULT: "hsl(var(--surface))",
+          elevated: "hsl(var(--surface-elevated))",
+        },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -80,10 +84,35 @@ export default {
             height: "0",
           },
         },
+        "fade-in": {
+          "0%": { opacity: "0", transform: "translateY(12px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        "fade-in-slow": {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+        "scale-in": {
+          "0%": { opacity: "0", transform: "scale(0.96)" },
+          "100%": { opacity: "1", transform: "scale(1)" },
+        },
+        "float": {
+          "0%,100%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-8px)" },
+        },
+        "blink": {
+          "0%,49%": { opacity: "1" },
+          "50%,100%": { opacity: "0" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "fade-in": "fade-in 0.7s cubic-bezier(0.22,1,0.36,1) both",
+        "fade-in-slow": "fade-in-slow 1.2s ease-out both",
+        "scale-in": "scale-in 0.5s cubic-bezier(0.22,1,0.36,1) both",
+        "float": "float 6s ease-in-out infinite",
+        "blink": "blink 1s steps(1) infinite",
       },
     },
   },
