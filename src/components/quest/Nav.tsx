@@ -4,6 +4,7 @@ const links = [
   { label: "Quests", href: "#quests" },
   { label: "Playground", href: "#playground" },
   { label: "Systems", href: "#systems" },
+  { label: "Builds", href: "#builds" },
   { label: "About", href: "#about" },
 ];
 
