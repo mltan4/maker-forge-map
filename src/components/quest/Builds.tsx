@@ -2,6 +2,8 @@ import sandbox from "@/assets/builds/ai-sandbox-studio.png";
 import reply from "@/assets/builds/reply-genie.png";
 import compass from "@/assets/builds/ai-pm-compass.png";
 import grass from "@/assets/builds/touch-grass.png";
+import dish from "@/assets/builds/dish-mentor.png";
+import couple from "@/assets/builds/couple-connect.png";
 
 type Build = {
   name: string;
@@ -53,6 +55,26 @@ const builds: Build[] = [
     status: "wip",
     size: "md",
     accent: "mint",
+  },
+  {
+    name: "Dish Mentor",
+    tagline: "LeafScore — personalized menu ranking from your lab work.",
+    tags: ["Health", "AI"],
+    url: "https://dish-mentor.lovable.app",
+    image: dish,
+    status: "live",
+    size: "md",
+    accent: "lavender",
+  },
+  {
+    name: "Couple Connect",
+    tagline: "The Conversation Wheel — a gentle Gottman-inspired ritual for couples.",
+    tags: ["Relationships", "Ritual"],
+    url: "https://coupleconnect.nextcraft.life",
+    image: couple,
+    status: "live",
+    size: "md",
+    accent: "cyan",
   },
 ];
 
