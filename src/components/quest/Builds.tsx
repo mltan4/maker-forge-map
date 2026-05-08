@@ -24,7 +24,7 @@ const builds: Build[] = [
     url: "https://ai-pm-compass.lovable.app",
     image: compass,
     status: "live",
-    size: "lg",
+    size: "md",
     accent: "lavender",
   },
   {
