@@ -16,9 +16,7 @@ export const Hero = () => {
           </div>
 
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-[0.95] tracking-tight animate-fade-in" style={{ animationDelay: "0.1s" }}>
-            Builder of <span className="text-gradient-mint">systems</span>,
-            <br />
-            not slide decks
+            Builder's Playground
             <span className="inline-block w-3 h-[0.85em] bg-primary ml-2 align-middle animate-blink" />
           </h1>
 
