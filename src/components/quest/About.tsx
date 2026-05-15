@@ -9,7 +9,7 @@ export const About = () => {
               About the <span className="text-gradient-mint">player</span>
             </h2>
             <div className="glass rounded-2xl p-6 space-y-3 font-mono text-sm">
-              <Row k="role" v="Builder · ex-PM" />
+              <Row k="role" v="Product, and Community Builder" />
               <Row k="focus" v="AI systems &amp; community" />
               <Row k="status" v="Building Quest in public" />
               <Row k="based" v="The internet" />
