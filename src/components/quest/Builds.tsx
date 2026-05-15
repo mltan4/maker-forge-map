@@ -4,6 +4,7 @@ import compass from "@/assets/builds/ai-pm-compass.png";
 import grass from "@/assets/builds/touch-grass.png";
 import dish from "@/assets/builds/dish-mentor.png";
 import couple from "@/assets/builds/couple-connect.png";
+import reflect from "@/assets/builds/reflect-os.png";
 
 type Build = {
   name: string;
@@ -75,6 +76,16 @@ const builds: Build[] = [
     status: "live",
     size: "md",
     accent: "cyan",
+  },
+  {
+    name: "ReflectOS",
+    tagline: "A calm operating system for daily reflection — prompts, prompts, and patterns.",
+    tags: ["Journaling", "Wellbeing"],
+    url: "https://reflect.nextcraft.life",
+    image: reflect,
+    status: "live",
+    size: "md",
+    accent: "mint",
   },
 ];
 
