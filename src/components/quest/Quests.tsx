@@ -71,11 +71,6 @@ const statusLabel = {
   "in-progress": "in progress",
 };
 
-const sizeMap: Record<Quest["size"], string> = {
-  lg: "md:col-span-2 md:row-span-2",
-  md: "md:col-span-2",
-  sm: "md:col-span-1",
-};
 
 export const Quests = () => {
   const [active, setActive] = useState<Quest | null>(null);
