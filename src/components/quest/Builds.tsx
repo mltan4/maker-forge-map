@@ -113,8 +113,8 @@ const builds: Build[] = [
     accent: "lavender",
   },
   {
-    name: "Past Projects",
-    tagline: "Scaling platforms and ecosystems.",
+    name: "Commerce and Mobile Craft",
+    tagline: "Work on scaling platforms and ecosystem.",
     tags: ["Teams", "Education"],
     url: "https://appreview.nextcraft.life/about/1",
     image: workingTeams,
