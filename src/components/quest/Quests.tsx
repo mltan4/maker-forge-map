@@ -9,7 +9,6 @@ type Quest = {
   tradeoff: string;
   status: "live" | "beta" | "in-progress";
   tags: string[];
-  size: "lg" | "md" | "sm";
   accent: "mint" | "lavender" | "cyan";
 };
 
