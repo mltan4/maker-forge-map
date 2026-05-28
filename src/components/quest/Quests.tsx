@@ -9,7 +9,6 @@ type Quest = {
   tradeoff: string;
   status: "live" | "beta" | "in-progress";
   tags: string[];
-  size: "lg" | "md" | "sm";
   accent: "mint" | "lavender" | "cyan";
 };
 
@@ -23,7 +22,6 @@ const quests: Quest[] = [
     tradeoff: "More structured than a shared doc. Less flexible than no system at all.",
     status: "live",
     tags: ["AI", "WORKFLOW", "PM"],
-    size: "lg",
     accent: "mint",
   },
   {
@@ -35,7 +33,6 @@ const quests: Quest[] = [
     tradeoff: "Opinionated framework. Won't fit every team's model.",
     status: "live",
     tags: ["AI", "PRODUCT", "RUBRIC"],
-    size: "md",
     accent: "lavender",
   },
   {
@@ -47,7 +44,6 @@ const quests: Quest[] = [
     tradeoff: "Works best for short-form. Long-form still needs human structure.",
     status: "live",
     tags: ["AI", "PRODUCTIVITY"],
-    size: "md",
     accent: "cyan",
   },
   {
@@ -59,7 +55,6 @@ const quests: Quest[] = [
     tradeoff: "Slower than auto-publish. The messiness is the point.",
     status: "in-progress",
     tags: ["AI", "WRITING"],
-    size: "sm",
     accent: "mint",
   },
 ];
@@ -76,11 +71,6 @@ const statusLabel = {
   "in-progress": "in progress",
 };
 
-const sizeMap: Record<Quest["size"], string> = {
-  lg: "md:col-span-2 md:row-span-2",
-  md: "md:col-span-2",
-  sm: "md:col-span-1",
-};
 
 export const Quests = () => {
   const [active, setActive] = useState<Quest | null>(null);
@@ -94,29 +84,26 @@ export const Quests = () => {
           sub="Every node is a system I built. Open one to see the problem, the wiring, and the tradeoffs that didn't make the README."
         />
 
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-5 auto-rows-[minmax(180px,auto)]">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-5">
           {quests.map((q, i) => (
             <button
               key={q.id}
               onClick={() => setActive(q)}
-              className={`quest-node text-left p-6 md:p-7 group ${sizeMap[q.size]} animate-scale-in`}
+              className="quest-node text-left p-6 md:p-7 group animate-scale-in"
               style={{ animationDelay: `${i * 0.06}s` }}
             >
-              <div className="flex items-start justify-between gap-4 mb-6">
-                <span className={`font-mono text-xs tracking-widest uppercase ${accentMap[q.accent]}`}>
-                  LVL {q.level}
-                </span>
+              <div className="flex items-start justify-end gap-4 mb-6">
                 <span className="inline-flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
                   <span className={`w-1.5 h-1.5 rounded-full ${q.status === "live" ? "bg-primary" : q.status === "beta" ? "bg-secondary" : "bg-muted-foreground"}`} />
                   {statusLabel[q.status]}
                 </span>
               </div>
 
-              <h3 className={`font-semibold leading-tight mb-3 ${q.size === "lg" ? "text-2xl md:text-3xl" : "text-lg md:text-xl"}`}>
+              <h3 className="font-semibold leading-tight mb-3 text-lg md:text-xl">
                 {q.title}
               </h3>
 
-              <p className={`text-muted-foreground leading-relaxed ${q.size === "lg" ? "text-base mb-6" : "text-sm mb-4"}`}>
+              <p className="text-muted-foreground leading-relaxed text-sm mb-4">
                 {q.problem}
               </p>
 
