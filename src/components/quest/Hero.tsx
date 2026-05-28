@@ -21,9 +21,9 @@ export const Hero = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            A playground for projects, AI workflows, and community-driven
-            products. Each node is a quest — open it, see how it was built,
-            steal what's useful, build your own.
+            Projects, AI workflows, tools built in public. Open a build, see
+            how it was wired, steal what's useful, make something better.
+            Everything here is under construction, perpetually.
           </p>
 
           <div className="flex flex-wrap items-center gap-3 animate-fade-in" style={{ animationDelay: "0.3s" }}>
