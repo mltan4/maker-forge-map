@@ -1,6 +1,6 @@
 export const Hero = () => {
   return (
-    <section className="relative pt-40 md:pt-48 pb-24 md:pb-32 overflow-hidden">
+    <section className="relative pt-32 md:pt-40 pb-16 md:pb-20 overflow-hidden">
       <div className="absolute inset-0 grid-bg pointer-events-none" />
       {/* floating orbs */}
       <div className="absolute top-32 -left-20 w-96 h-96 rounded-full bg-secondary/20 blur-[120px] animate-float pointer-events-none" />

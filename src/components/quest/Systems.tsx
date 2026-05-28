@@ -27,7 +27,7 @@ const notes = [
 
 export const Systems = () => {
   return (
-    <section id="systems" className="relative py-24 md:py-32">
+    <section id="systems" className="relative py-16 md:py-20">
       <div className="mx-auto max-w-6xl px-4">
         <div className="mb-12 md:mb-16 max-w-3xl">
           <div className="font-mono text-xs uppercase tracking-widest text-accent mb-4">// chapter 03</div>
