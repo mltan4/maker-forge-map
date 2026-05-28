@@ -9,10 +9,9 @@ export const About = () => {
               About the <span className="text-gradient-mint">player</span>
             </h2>
             <div className="glass rounded-2xl p-6 space-y-3 font-mono text-sm">
-              <Row k="role" v="Product, and Community Builder" />
-              <Row k="focus" v="AI systems &amp; community" />
-              <Row k="status" v="Building Quest in public" />
-              <Row k="based" v="The internet" />
+              <Row k="role" v="Product, Operator, Community Builder" />
+              <Row k="focus" v="AI systems and workflow" />
+              <Row k="status" v="Building in Public" />
             </div>
           </div>
 
@@ -34,11 +33,11 @@ export const About = () => {
             </p>
 
             <div id="contact" className="flex flex-wrap items-center gap-3 pt-4">
-              <a href="mailto:hello@quest.build" className="btn-press-start">
-                <span>✉</span> Say hi
+              <a href="https://www.linkedin.com/in/productgrowth/" target="_blank" rel="noopener noreferrer" className="btn-press-start">
+                <span>✉</span> Say Hi
               </a>
-              <a href="#" className="btn-ghost-glow">Twitter / X</a>
-              <a href="#" className="btn-ghost-glow">GitHub</a>
+              <a href="https://x.com/marktanft" target="_blank" rel="noopener noreferrer" className="btn-ghost-glow">Twitter / X</a>
+              <a href="https://github.com/mltan4" target="_blank" rel="noopener noreferrer" className="btn-ghost-glow">GitHub</a>
             </div>
           </div>
         </div>
