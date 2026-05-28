@@ -66,7 +66,7 @@ const builds: Build[] = [
     name: "Dish Mentor",
     tagline: "LeafScore — personalized menu ranking from your lab work.",
     tags: ["Health", "AI"],
-    url: "https://dish-mentor.lovable.app",
+    url: "https://healthymeals.nextcraft.life",
     image: dish,
     status: "live",
     size: "md",
