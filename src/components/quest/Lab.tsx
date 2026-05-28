@@ -11,25 +11,21 @@ const notes = [
     cat: "AI WORKFLOWS",
     title: "Decision debt compounds quietly",
     excerpt: "It shows up as engineers guessing at intent, PMs in alignment meetings that shouldn't exist, and new hires who never learn why things are the way they are.",
-    read: "4 min",
   },
   {
     cat: "PRODUCT",
     title: "Draft downstream, never auto-promote",
     excerpt: "AI should reduce the cost of drafting, not make decisions. Every output is a proposal until a human signs off.",
-    read: "3 min",
   },
   {
     cat: "SYSTEMS",
     title: "Traceability over convenience",
     excerpt: "It would be faster to let the AI write specs directly from raw notes. WorkOS doesn't do this. The extra steps are the point.",
-    read: "5 min",
   },
   {
     cat: "AI WORKFLOWS",
     title: "Boring beats clever",
     excerpt: "Simple prompts a PM can read, understand, and modify beat sophisticated ones they have to treat as a black box.",
-    read: "2 min",
   },
 ];
 
@@ -50,10 +46,9 @@ export const Lab = () => {
 
         <div className="glass rounded-2xl divide-y divide-border overflow-hidden">
           {experiments.map((e, i) => (
-            <a
+            <div
               key={e.title}
-              href="#"
-              className="group flex items-center gap-4 md:gap-8 p-5 md:p-7 hover:bg-surface-elevated transition-colors animate-fade-in"
+              className="flex items-center gap-4 md:gap-8 p-5 md:p-7 animate-fade-in"
               style={{ animationDelay: `${i * 0.04}s` }}
             >
               <span className="font-mono text-[10px] tracking-widest uppercase text-muted-foreground w-10 shrink-0">
@@ -66,39 +61,29 @@ export const Lab = () => {
                 <div className="text-base md:text-lg font-medium leading-tight">{e.title}</div>
                 <div className="text-sm text-muted-foreground mt-1 truncate">{e.note}</div>
               </div>
-              <span className="font-mono text-xs text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0">
-                →
-              </span>
-            </a>
+            </div>
           ))}
         </div>
 
         <div className="grid md:grid-cols-2 gap-4 md:gap-5 mt-10 md:mt-12">
           {notes.map((n, i) => (
-            <a
+            <div
               key={n.title}
-              href="#"
-              className="quest-node p-7 md:p-8 group flex flex-col animate-scale-in"
+              className="quest-node p-7 md:p-8 flex flex-col animate-scale-in"
               style={{ animationDelay: `${i * 0.06}s` }}
             >
-              <div className="flex items-center justify-between mb-5">
+              <div className="mb-5">
                 <span className="font-mono text-[10px] tracking-widest uppercase text-accent">
                   {n.cat}
                 </span>
-                <span className="font-mono text-[10px] tracking-widest uppercase text-muted-foreground">
-                  {n.read}
-                </span>
               </div>
-              <h3 className="text-xl md:text-2xl font-semibold leading-tight mb-3 group-hover:text-gradient-mint transition-colors">
+              <h3 className="text-xl md:text-2xl font-semibold leading-tight mb-3">
                 {n.title}
               </h3>
               <p className="text-muted-foreground leading-relaxed text-sm md:text-base flex-1">
                 {n.excerpt}
               </p>
-              <div className="mt-6 inline-flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-foreground/70 group-hover:text-primary transition-colors">
-                Read note →
-              </div>
-            </a>
+            </div>
           ))}
         </div>
       </div>

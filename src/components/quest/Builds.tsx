@@ -152,10 +152,10 @@ export const Builds = () => {
       <div className="mx-auto max-w-6xl px-4">
         <div className="mb-12 md:mb-16 max-w-3xl">
           <div className="font-mono text-xs uppercase tracking-widest text-accent mb-4">
-            // chapter 04
+            // chapter 03
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05] mb-5">
-            Other <span className="text-gradient-mint">Builds</span>
+            The <span className="text-gradient-mint">Builds</span>
           </h2>
           <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
             A working gallery of side quests — apps, prototypes, and toys
