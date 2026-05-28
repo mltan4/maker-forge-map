@@ -17,19 +17,18 @@ export const About = () => {
 
           <div className="md:col-span-7 space-y-6 text-lg leading-relaxed">
             <p>
-              I spent years as a product leader shipping features. Now I'm
-              evolving into a builder of systems — small, opinionated tools
-              that compound, AI workflows that do the boring work, and
-              communities that teach themselves.
+              I spent years as a product leader and operator shipping features
+              and running teams. Now I'm evolving into a builder of systems:
+              small, opinionated tools that compound, AI workflows that do the
+              boring work, and communities that teach themselves.
             </p>
             <p className="text-muted-foreground">
-              This site isn't a résumé. It's a workshop. Each quest is a real
-              system I built, broken open so you can see the wiring. Take what's
-              useful. Argue with the tradeoffs. Build something better.
+              I've build these apps with prompts. Take what's useful. Argue
+              with the tradeoffs. Build something better.
             </p>
             <p className="text-muted-foreground">
               If you're working on AI products, internal tools, or community
-              systems — let's compare notes.
+              systems, let's compare notes.
             </p>
 
             <div id="contact" className="flex flex-wrap items-center gap-3 pt-4">
