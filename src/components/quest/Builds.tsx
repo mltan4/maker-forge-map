@@ -113,8 +113,8 @@ const builds: Build[] = [
     accent: "lavender",
   },
   {
-    name: "Working in Teams",
-    tagline: "A playful primer on team dynamics — roles, rituals, and how work actually gets done.",
+    name: "Past Projects",
+    tagline: "Scaling platforms and ecosystems.",
     tags: ["Teams", "Education"],
     url: "https://appreview.nextcraft.life/about/1",
     image: workingTeams,
@@ -148,7 +148,7 @@ const sizeMap: Record<Build["size"], string> = {
 
 export const Builds = () => {
   return (
-    <section id="builds" className="relative py-24 md:py-32">
+    <section id="builds" className="relative py-16 md:py-20">
       <div className="mx-auto max-w-6xl px-4">
         <div className="mb-12 md:mb-16 max-w-3xl">
           <div className="font-mono text-xs uppercase tracking-widest text-accent mb-4">

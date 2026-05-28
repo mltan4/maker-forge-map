@@ -1,6 +1,6 @@
 export const About = () => {
   return (
-    <section id="about" className="relative py-24 md:py-32">
+    <section id="about" className="relative py-16 md:py-20">
       <div className="mx-auto max-w-6xl px-4">
         <div className="grid md:grid-cols-12 gap-10 md:gap-16 items-start">
           <div className="md:col-span-5">

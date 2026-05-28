@@ -76,7 +76,7 @@ export const Quests = () => {
   const [active, setActive] = useState<Quest | null>(null);
 
   return (
-    <section id="quests" className="relative py-24 md:py-32">
+    <section id="quests" className="relative py-16 md:py-20">
       <div className="mx-auto max-w-6xl px-4">
         <SectionHeader
           eyeline="// chapter 01"
