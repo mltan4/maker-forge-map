@@ -81,7 +81,7 @@ export const Quests = () => {
         <SectionHeader
           eyeline="// chapter 01"
           title={<>The <span className="text-gradient-mint">Quest Map</span></>}
-          sub="Every node is a system I built. Open one to see the problem, the wiring, and the tradeoffs that didn't make the README."
+          sub="Apps across AI workflow, product craft, and community tools. Every node is a system I built incrementally. Open one to see the problem, the wiring, and the tradeoffs that didn't make the README."
         />
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-5">
