@@ -5,6 +5,10 @@ import grass from "@/assets/builds/touch-grass.png";
 import dish from "@/assets/builds/dish-mentor.png";
 import couple from "@/assets/builds/couple-connect.png";
 import reflect from "@/assets/builds/reflect-os.png";
+import dynamicReports from "@/assets/builds/dynamic-reports.png";
+import flashPrd from "@/assets/builds/flash-prd.png";
+import workingTeams from "@/assets/builds/working-teams.png";
+import yetAnotherWorkos from "@/assets/builds/yet-another-workos.png";
 
 type Build = {
   name: string;
@@ -83,6 +87,46 @@ const builds: Build[] = [
     tags: ["Journaling", "Wellbeing"],
     url: "https://reflect.nextcraft.life",
     image: reflect,
+    status: "live",
+    size: "md",
+    accent: "mint",
+  },
+  {
+    name: "Dynamic Reports",
+    tagline: "A UI pattern for charts and reports that adapt to the data you throw at them.",
+    tags: ["UI Pattern", "Data Viz"],
+    url: "https://charts.nextcraft.life",
+    image: dynamicReports,
+    status: "live",
+    size: "md",
+    accent: "mint",
+  },
+  {
+    name: "Flash PRD",
+    tagline: "Draft a sharp product requirements doc in minutes — not days.",
+    tags: ["Product", "AI"],
+    url: "https://flashprd.nextcraft.life",
+    image: flashPrd,
+    status: "live",
+    size: "md",
+    accent: "lavender",
+  },
+  {
+    name: "Working in Teams",
+    tagline: "A playful primer on team dynamics — roles, rituals, and how work actually gets done.",
+    tags: ["Teams", "Education"],
+    url: "https://appreview.nextcraft.life/about/1",
+    image: workingTeams,
+    status: "live",
+    size: "md",
+    accent: "cyan",
+  },
+  {
+    name: "Yet Another WorkOS",
+    tagline: "A scrappy take on the modern work operating system — apps, surfaces, and seams.",
+    tags: ["WorkOS", "Prototype"],
+    url: "https://appreview.nextcraft.life/workos/1",
+    image: yetAnotherWorkos,
     status: "live",
     size: "md",
     accent: "mint",
