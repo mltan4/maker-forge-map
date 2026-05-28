@@ -113,8 +113,8 @@ const builds: Build[] = [
     accent: "lavender",
   },
   {
-    name: "Working in Teams",
-    tagline: "A playful primer on team dynamics — roles, rituals, and how work actually gets done.",
+    name: "Past Projects",
+    tagline: "Scaling platforms and ecosystems.",
     tags: ["Teams", "Education"],
     url: "https://appreview.nextcraft.life/about/1",
     image: workingTeams,
