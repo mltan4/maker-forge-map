@@ -1,26 +1,26 @@
 const notes = [
   {
-    cat: "AI Workflows",
-    title: "The 3-loop pattern for AI products",
-    excerpt: "Most useful AI features are loops, not endpoints. Generate → critique → revise. Bake the loop in.",
+    cat: "AI WORKFLOWS",
+    title: "Decision debt compounds quietly",
+    excerpt: "It shows up as engineers guessing at intent, PMs in alignment meetings that shouldn't exist, and new hires who never learn why things are the way they are.",
     read: "4 min",
   },
   {
-    cat: "Community",
-    title: "Why your Discord is a graph, not a list",
-    excerpt: "Channels are a UI, not a data model. The real shape is who replies to whom.",
+    cat: "PRODUCT",
+    title: "Draft downstream, never auto-promote",
+    excerpt: "AI should reduce the cost of drafting, not make decisions. Every output is a proposal until a human signs off.",
     read: "3 min",
   },
   {
-    cat: "Product",
-    title: "Specs are conversations with the future you",
-    excerpt: "Write the doc you'll wish you had in week 6. Not the one impressive in week 1.",
+    cat: "SYSTEMS",
+    title: "Traceability over convenience",
+    excerpt: "It would be faster to let the AI write specs directly from raw notes. WorkOS doesn't do this. The extra steps are the point.",
     read: "5 min",
   },
   {
-    cat: "Systems",
-    title: "Build the smallest loop that proves the thesis",
-    excerpt: "If it works at one user, scale the system. If not, no amount of polish saves it.",
+    cat: "AI WORKFLOWS",
+    title: "Boring beats clever",
+    excerpt: "Simple prompts a PM can read, understand, and modify beat sophisticated ones they have to treat as a black box.",
     read: "2 min",
   },
 ];
