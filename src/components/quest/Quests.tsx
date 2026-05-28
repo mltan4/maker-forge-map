@@ -22,7 +22,6 @@ const quests: Quest[] = [
     tradeoff: "More structured than a shared doc. Less flexible than no system at all.",
     status: "live",
     tags: ["AI", "WORKFLOW", "PM"],
-    size: "lg",
     accent: "mint",
   },
   {
@@ -34,7 +33,6 @@ const quests: Quest[] = [
     tradeoff: "Opinionated framework. Won't fit every team's model.",
     status: "live",
     tags: ["AI", "PRODUCT", "RUBRIC"],
-    size: "md",
     accent: "lavender",
   },
   {
@@ -46,7 +44,6 @@ const quests: Quest[] = [
     tradeoff: "Works best for short-form. Long-form still needs human structure.",
     status: "live",
     tags: ["AI", "PRODUCTIVITY"],
-    size: "md",
     accent: "cyan",
   },
   {
@@ -58,7 +55,6 @@ const quests: Quest[] = [
     tradeoff: "Slower than auto-publish. The messiness is the point.",
     status: "in-progress",
     tags: ["AI", "WRITING"],
-    size: "sm",
     accent: "mint",
   },
 ];
