@@ -4,7 +4,7 @@ export const About = () => {
       <div className="mx-auto max-w-6xl px-4">
         <div className="grid md:grid-cols-12 gap-10 md:gap-16 items-start">
           <div className="md:col-span-5">
-            <div className="font-mono text-xs uppercase tracking-widest text-primary mb-4">// chapter 04</div>
+            <div className="font-mono text-xs uppercase tracking-widest text-primary mb-4">// chapter 05</div>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05] mb-6">
               About the <span className="text-gradient-mint">player</span>
             </h2>
