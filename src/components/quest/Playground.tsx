@@ -1,10 +1,9 @@
 const experiments = [
-  { tag: "PROMPT", title: "Self-critique loop for spec writing", note: "Reduced rewrites by ~60% in personal use." },
-  { tag: "AGENT", title: "Mini researcher: 3 agents, 1 verdict", note: "Two skeptics + one synthesizer." },
-  { tag: "RAG", title: "Discord-as-knowledge-base proof of concept", note: "Embed weekly, query monthly." },
-  { tag: "UI", title: "Quest map nav (this site)", note: "Bento grid + reveal-on-hover." },
-  { tag: "WORKFLOW", title: "Daily journal → weekly themes", note: "LLM clusters voice notes." },
-  { tag: "TOOL", title: "Standup digest in 200 lines", note: "Cron + Slack webhook + GPT." },
+  { tag: "PROMPT", title: "The self-critique loop for spec writing", note: "Write it. Critique it. Rewrite it. Bake the loop in." },
+  { tag: "AGENT", title: "Confidence scoring for AI output", note: "High, medium, low. If you can't name the source quote, it's low." },
+  { tag: "WORKFLOW", title: "Single output tree vs. parallel tracks", note: "Three folders became one. Execution track is a field, not a folder." },
+  { tag: "TOOL", title: "Retrospective as pipeline stage", note: "Shipping isn't the end. It's the start of the next loop." },
+  { tag: "RAG", title: "Inbox-to-principle extraction", note: "Three independent signals from different meetings. That's the bar for a principle." },
 ];
 
 export const Playground = () => {
